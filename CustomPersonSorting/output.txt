@@ -1,0 +1,90 @@
+Case 1: Sort by SSN in Ascending order
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+
+
+Case 2: Sort by SSN in Descending order
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+
+
+Case 3: Sort by Last Name in Ascending order
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+
+
+Case 4: Sort by First Name in Descending order
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+
+
+Case 5: Sort by Height in Descending order
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+
+
+Case 6: Sort by Weight in Ascending order
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+
+
+Case 7: Sort by DOB in Ascending order
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+
+
+Case 8: Sort by DOB in Descending order
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+
+
+Case 9: Sort by First Name in Ascending order
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+
+
+Case 10: Sort by Height in Ascending order
+Person { SSN  = 312-573-1571, Date of Birth = 01-02-1991, First Name = Greg, Last Name = Smith, Height (in inches) 40.61, Weight (in lbs) = 140.56 }
+Person { SSN  = 213-456-1234, Date of Birth = 04-09-1988, First Name = Jennifer, Last Name = Lo, Height (in inches) 56.12, Weight (in lbs) = 150.19 }
+Person { SSN  = 213-456-1238, Date of Birth = 09-11-1990, First Name = Jennifer, Last Name = Law, Height (in inches) 59.24, Weight (in lbs) = 134.51 }
+Person { SSN  = 453-122-1245, Date of Birth = 04-11-1988, First Name = Celine, Last Name = Dion, Height (in inches) 60.41, Weight (in lbs) = 161.45 }
+Person { SSN  = 123-345-6175, Date of Birth = 04-11-1990, First Name = Ryan, Last Name = Rey, Height (in inches) 60.71, Weight (in lbs) = 180.24 }
+Person { SSN  = 213-455-1234, Date of Birth = 04-06-1985, First Name = Jennifer, Last Name = Ann, Height (in inches) 65.17, Weight (in lbs) = 134.5 }
+
+
