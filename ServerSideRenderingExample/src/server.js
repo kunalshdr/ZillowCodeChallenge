@@ -3,6 +3,7 @@ import React from "react";
 import { renderToString } from "react-dom/server";
 import HelloWorld from "./HelloWorld";
 import axios from 'axios'
+import serialize from 'serialize-javascript';
 
 const path = require('path');
 
@@ -14,14 +15,14 @@ app.use(express.static(path.resolve(__dirname, '../dist')));
 
 app.get('**', (request, response) => {
     axios.get('https://api.github.com/users/kunalshdr').then(data => {
-        const app = renderToString(<HelloWorld />);
-        response.send(getHtmlContent(app));
+        const app = renderToString(<HelloWorld initialData = {data.data}/>);
+        response.send(getHtmlContent(app, data.data));
     });
 });
 
 app.listen(3000);
 
-function getHtmlContent(app) {
+function getHtmlContent(app, initialData) {
     return `
         <html>
             <head>
@@ -30,6 +31,7 @@ function getHtmlContent(app) {
             <body>
                 <div id = 'root'> ${app} </div>
                 <script src = './bundle.js'></script>
+                <script window.__initialData__ = ${serialize(initialData)};> </script>
             </body>
         </html>
     `;
