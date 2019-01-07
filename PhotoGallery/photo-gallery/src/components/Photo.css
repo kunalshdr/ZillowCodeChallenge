@@ -1,0 +1,13 @@
+.imageContainer {
+    margin: 3px;
+    position: relative;
+    display: inline-block;
+}
+
+.captionText {
+    color: whitesmoke;
+    font: bold 15px arial, sans-serif;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
