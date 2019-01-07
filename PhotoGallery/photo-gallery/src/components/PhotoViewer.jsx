@@ -3,6 +3,7 @@ import './PhotoViewer.css';
 
 class PhotoViewer extends Component {
     render() {
+        // don't show anything when user hasn't selected a photo
         if(!this.props.url) {
             return null;
         }

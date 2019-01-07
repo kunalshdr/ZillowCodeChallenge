@@ -35,6 +35,8 @@ class Gallery extends Component {
 
     showNextPhoto() {
         let currentIndex = this.state.selectedPhotoIndex;
+        // if user is on last photo, clicking prev will take him to first photo
+        // like a cyclic image slideshow
         if (currentIndex === this.props.photos.length - 1) {
             currentIndex = -1;
         }
@@ -49,6 +51,8 @@ class Gallery extends Component {
 
     showPrevPhoto() {
         let currentIndex = this.state.selectedPhotoIndex;
+        // if user is on first photo, clicking prev will take him to last photo
+        // like a cyclic image slideshow
         if (currentIndex === 0) {
             currentIndex = this.props.photos.length;
         }
@@ -62,10 +66,12 @@ class Gallery extends Component {
     }
 
     handleKeyDown(event) {
+        // don't react to key events if user isn't in the PhotoViewer mode
         if (this.state.selectedPhotoIndex < 0) {
             return;
         }
 
+        // left and right arrow key events
         if (event.keyCode === 37) {
             this.showPrevPhoto();
         } else if (event.keyCode === 39) {
@@ -74,6 +80,7 @@ class Gallery extends Component {
     }
 
     render() {
+        // For each photo, make a Photo component and add it to array
         let photoCollection = [];
         for (let i = 0; i < this.props.photos.length; i++) {
             let photo = this.props.photos[i];
